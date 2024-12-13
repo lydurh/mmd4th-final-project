@@ -1,39 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-   <header></header>
-   <main>
-       <div id="section_1">
-         <H1>Welcome to Beta Boulders</H1>
-         <h4>Where life meets balance</h4>
-         <button>Joins us</button>
-         <button> Contact</button>
-       </div>
-       <div id="section_2">
-         <Img></Img>
-         <H4>First time? No problem!</H4>
-         <h3> Bouldering is a type of climbing that involves short, fun routes and is designed for everybody!</h3>
-         <button>Get Started</button>
-         <div id="section_3">
-            <h4>Flexible packages, designed for you!</h4>
-            <h3>We aim to offer the best value or your budget and lifestyle, no commitment necessary.</h3>
-            <button>join us!</button>
-         </div>
-         <diV id="section_4">
-            <H2>Locations</H2>
-            <Img></Img>
-            <Img></Img>
-            <Img></Img>
-            <Img></Img>
-         </diV>
-       </div>
-   </main>
-<footer></footer>
-
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="nav-logo">
+        <img src="/assets/logos/BETALOGOwhite-trasp 2.png" alt="logo-white" />
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#">First time</a></li>
+          <li><a href="#">Prices</a></li>
+          <li><a href="#">Classes</a></li>
+          <li><a href="#">Locations</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Join Us</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Account</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- 
+    <main>
+      <div id="section_1">
+        <h1>Welcome to Beta Boulders</h1>
+        <h4>Where life meets balance</h4>
+        <button>Joins us</button>
+        <button>Contact</button>
+      </div>
+      <div id="section_2">
+        <h4>First time? No problem!</h4>
+        <h3>
+          Bouldering is a type of climbing that involves short, fun routes and
+          is designed for everybody!
+        </h3>
+        <button>Get Started</button>
+        <div id="section_3">
+          <h4>Flexible packages, designed for you!</h4>
+          <h3>
+            We aim to offer the best value or your budget and lifestyle, no
+            commitment necessary.
+          </h3>
+          <button>join us!</button>
+        </div>
+        <div id="section_4">
+          <h2>Locations</h2>
+        </div>
+      </div>
+    </main>
+   -->
+    <nav id="hamburger-nav">
+      <div class="nav-logo">
+        <img src="/assets/logos/BETALOGOwhite-trasp 2.png" alt="logo-white" />
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="togglemenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#" onclick="togglemenu()">First time</a></li>
+          <li><a href="#" onclick="togglemenu()">Prices</a></li>
+          <li><a href="#" onclick="togglemenu()">Classes</a></li>
+          <li><a href="#" onclick="togglemenu()">Locations</a></li>
+          <li><a href="#" onclick="togglemenu()">About us</a></li>
+          <li><a href="#" onclick="togglemenu()">Join Us</a></li>
+          <li><a href="#" onclick="togglemenu()">Shop</a></li>
+          <li><a href="#" onclick="togglemenu()">Account</a></li>
+        </div>
+      </div>
+    </nav>
+    <script src="script.js"></script>
+  </body>
+  <footer></footer>
 </html>
