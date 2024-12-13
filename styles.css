@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+/* .inter> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } ##
+  
+*/
+
+/*  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+  
+*/
+
+#section_1 h1 {
+    font-size: 5rem;
+    font-family: "Archivo", sans-serif;
+}
+
+
+h1 {
+font-size: 4rem;
+font-family: "Archivo", sans-serif;
+}
+
+h2 { 
+    font-size: 3.188rem;
+    font-family: "Archivo", sans-serif;
+}
+
+h3 { 
+    font-size: 2.5rem;
+    font-family: "Archivo", sans-serif;
+}
+
+h4 { 
+    font-size: 2rem;
+    font-family: "Archivo", sans-serif;
+}
+
+
+h5 {
+    font-size: 1.563rem
+    font-family: "Archivo", sans-serif;
+} 
+
+h6 {
+    font-size: 1.25rem;
+    font-family: "Archivo", sans-serif;
+}
+
+p {
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+}
